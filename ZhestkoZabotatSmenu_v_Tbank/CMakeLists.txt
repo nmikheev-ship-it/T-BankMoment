@@ -3,4 +3,11 @@ project(ZhestkoZabotatSmenu_v_Tbank)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ZhestkoZabotatSmenu_v_Tbank main.cpp)
+add_executable(ZhestkoZabotatSmenu_v_Tbank main.cpp
+        Book.cpp
+        Book.h
+        Properties.cpp
+        Properties.h
+        Library.cpp
+        Library.h
+)
